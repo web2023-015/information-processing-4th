@@ -10,7 +10,8 @@
 
 body {
   max-width: 900px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  
 }
 
 
@@ -19,12 +20,14 @@ h1 {
   font-size: 28px;
   color: #cc70cc;
   border-bottom: 3px solid #cc70cc;
+  
   padding-bottom: 10px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 h2 {
+  
   font-size: 20px;
   color: #da7add;
   margin-top: 25px;
@@ -41,8 +44,21 @@ p{
 }
 
 
+ul,ol{
+ 
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+
 
 table {
+ 
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
@@ -51,6 +67,7 @@ table {
 }
 
 table tr:first-child th {
+ 
   background-color: #cc70cc;
   color: #444444;
   padding: 12px;
@@ -59,6 +76,7 @@ table tr:first-child th {
 }
 
 table td {
+ 
   padding: 12px;
   border-bottom: 1px solid #ddd;
 }
@@ -89,11 +107,12 @@ nav a:hover {
 
 
 a {
-  color: #1a5490;
+  color: #cc70cc;
   text-decoration: none;
 }
 
 a:hover {
+  color: #9154ca;
   text-decoration: underline;
 }
 
@@ -104,7 +123,6 @@ img {
   margin: 15px 0;
   border-radius: 5px;
 }
-
 
 
 .flex-box {
